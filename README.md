@@ -23,7 +23,7 @@ Please follow the steps below to set up your environment.
         * Open the Python notebook you want to work on (Step 1)
         * Uncomment the line related to using a local set-up and run it (see the figure below).
         * Re-comment the lines to avoid re-installing the dependencies every time you run the notebook.
-          ![image](https://github.com/DCM-ML-course-TRAIL/DCM_ML_TRAIL_2024/blob/main/Assets/img_1.png)
+          ![image](https://github.com/TransportDemand/CI5144/blob/main/Assets/img_1.png)
 
 
 
@@ -43,7 +43,7 @@ Please follow the steps we've included below to set up the workspace.
 
 * Step 1: Download this repo to your computer. On the top of this site, click on (1)<>Code tab, then in the green button (2)Code and then (3) Download ZIP (See numbers 1, 2, and 3 on the following image). Unzip this file into a working folder of your own choice.
 
-   ![image](https://github.com/DCM-ML-course-TRAIL/DCM_ML_TRAIL_2024/blob/main/Assets/img_2.png)
+   ![image](https://github.com/TransportDemand/CI5144/blob/main/Assets/img_2.png)
 
 
 * Step 2: Go to http://colab.research.google.com
@@ -51,14 +51,14 @@ Please follow the steps we've included below to set up the workspace.
 * Step 3: Sign in with your Google account (if you are already signed in, skip this step). If you do not have a Google account, you must (temporarily) create one.
 
 * Step 4: Upload the Python notebook you want to work on to Colab. Click on the "Upload" tab and then on the "Choose file" tab, see numbers 1 and 2 in the figure below. Then, navigate to your working folder (Step 1) and select the Python notebook (.ipynb) you want to work on (e.g. lab_session_00.ipynb).
-  ![image](https://github.com/DCM-ML-course-TRAIL/DCM_ML_TRAIL_2024/blob/main/Assets/img_3.png)
+  ![image](https://github.com/TransportDemand/CI5144/blob/main/Assets/img_3.png)
   
 * Step 5: Once open, click on "View" >> "Expand sections" on the menu bar.
 
 * Step 6: Importantly, Each notebook has a cell to prepare the data and environment in Google Colab. Uncomment (i.e. remove the '#') the lines related to the Colab set-up in your notebook, see the figure below. Run this cell and wait until finished.
 
 
- ![image](https://github.com/DCM-ML-course-TRAIL/DCM_ML_TRAIL_2024/blob/main/Assets/img_4.png)
+ ![image](https://github.com/TransportDemand/CI5144/blob/main/Assets/img_4.png)
 
 
 
@@ -75,76 +75,76 @@ If you want to use Anaconda, you must use **Python version 3.9.18 or 3.10.13**. 
 ##### Instruction 1: Create environment and install requirements from JupyterLab.
 
 1. **Open the environments Tab:** Go to the "Environments" tab on the left sidebar.
-   ![img1](https://github.com/DCM-ML-course-TRAIL/DCM_ML_TRAIL_2024/blob/main/Assets/Anaconda_1.png)
+   ![img1](https://github.com/TransportDemand/CI5144/blob/main/Assets/Anaconda_1.png)
 
 2. **Create a new environment:** Click on the "Create" button at the bottom of the window.
 
-    ![img2](https://github.com/DCM-ML-course-TRAIL/DCM_ML_TRAIL_2024/blob/main/Assets/Anaconda_2.png)
+    ![img2](https://github.com/TransportDemand/CI5144/blob/main/Assets/Anaconda_2.png)
    
 3. **Configure the new environment:** Enter a name for your new environment, e.g., "SEN1221," and choose the Python version == “**3.10.13**" from the drop-down menu.
 
-    ![img3](https://github.com/DCM-ML-course-TRAIL/DCM_ML_TRAIL_2024/blob/main/Assets/Anaconda_3.png)
+    ![img3](https://github.com/TransportDemand/CI5144/blob/main/Assets/Anaconda_3.png)
    
 4. **Activate the environment:** Go back to the "Home" tab. You should see your newly created environment at the right-hand side of "All applications"
  
-   ![img4](https://github.com/DCM-ML-course-TRAIL/DCM_ML_TRAIL_2024/blob/main/Assets/Anaconda_4.png)
+   ![img4](https://github.com/TransportDemand/CI5144/blob/main/Assets/Anaconda_4.png)
    
 5. **Install and launch JupyterLab.**
  
-   ![img5](https://github.com/DCM-ML-course-TRAIL/DCM_ML_TRAIL_2024/blob/main/Assets/Anaconda_5.png)
+   ![img5](https://github.com/TransportDemand/CI5144/blob/main/Assets/Anaconda_5.png)
    
 6. **Set up the working folder:** Download the SEN1221/Q2_2023 repo from the github repo to your computer . Unzip the file into a working folder of your own choice.
 
 7. **Find workspace through JupyterLab:** You will see the Lab session, the `requirements.txt` file, and the `data` folder.
  
-   ![img6](https://github.com/DCM-ML-course-TRAIL/DCM_ML_TRAIL_2024/blob/main/Assets/Anaconda_6.png)
+   ![img6](https://github.com/TransportDemand/CI5144/blob/main/Assets/Anaconda_6.png)
    
 8. **Uncomment and run the following cell:**
 
-   ![img7](https://github.com/DCM-ML-course-TRAIL/DCM_ML_TRAIL_2024/blob/main/Assets/Anaconda_7.png)
+   ![img7](https://github.com/TransportDemand/CI5144/blob/main/Assets/Anaconda_7.png)
    
 9. **Import all packages**
  
-   ![img8](https://github.com/DCM-ML-course-TRAIL/DCM_ML_TRAIL_2024/blob/main/Assets/Anaconda_8.png)
+   ![img8](https://github.com/TransportDemand/CI5144/blob/main/Assets/Anaconda_8.png)
    
 In case a package has not been imported, please restart the kernel and repeat steps: 8 and 9
  
-   ![img9](https://github.com/DCM-ML-course-TRAIL/DCM_ML_TRAIL_2024/blob/main/Assets/Anaconda_9.png)
+   ![img9](https://github.com/TransportDemand/CI5144/blob/main/Assets/Anaconda_9.png)
    
 #### Instruction 2: Create environment and install the requirements through the terminal.
 
 1. **Open the environments tab:** Go to the "Environments" tab on the left sidebar.
 
-   ![img10](https://github.com/DCM-ML-course-TRAIL/DCM_ML_TRAIL_2024/blob/main/Assets/Anaconda_10.png)
+   ![img10](https://github.com/TransportDemand/CI5144/blob/main/Assets/Anaconda_10.png)
 
 2. **Create a new environment:** Click on the "Create" button at the bottom of the window.
 
-   ![img11](https://github.com/DCM-ML-course-TRAIL/DCM_ML_TRAIL_2024/blob/main/Assets/Anaconda_11.png)
+   ![img11](https://github.com/TransportDemand/CI5144/blob/main/Assets/Anaconda_11.png)
 
 3. **Configure the new environment:** Enter a name for your new environment, e.g., "SEN1221," and choose the Python version == “3.10.13" from the drop-down menu.
 
-   ![img12](https://github.com/DCM-ML-course-TRAIL/DCM_ML_TRAIL_2024/blob/main/Assets/Anaconda_12.png)
+   ![img12](https://github.com/TransportDemand/CI5144/blob/main/Assets/Anaconda_12.png)
 
 4. **Activate the environment:** Click on the green "Play" button on the right side of the environment name to open a terminal where the environment is activated.
 
-   ![img13](https://github.com/DCM-ML-course-TRAIL/DCM_ML_TRAIL_2024/blob/main/Assets/Anaconda_13.png)
+   ![img13](https://github.com/TransportDemand/CI5144/blob/main/Assets/Anaconda_13.png)
 
 5. **Verify Python version:** You can run `python --version` in the terminal.
 
-   ![img14](https://github.com/DCM-ML-course-TRAIL/DCM_ML_TRAIL_2024/blob/main/Assets/Anaconda_14.png)
+   ![img14](https://github.com/TransportDemand/CI5144/blob/main/Assets/Anaconda_14.png)
 
 6. **Navigate to the project folder:** Use the `cd` command to navigate to the project folder, for example, `cd …/…/…/Q2_2023`.
 
-   ![img15](https://github.com/DCM-ML-course-TRAIL/DCM_ML_TRAIL_2024/blob/main/Assets/Anaconda_15.png)
+   ![img15](https://github.com/TransportDemand/CI5144/blob/main/Assets/Anaconda_15.png)
 
 7. **Install requirements file:** Now, you can install the `requirements.txt` file within the activated environment using the following command: `pip install -r requirements.txt`
 
-   ![img16](https://github.com/DCM-ML-course-TRAIL/DCM_ML_TRAIL_2024/blob/main/Assets/Anaconda_16.png)
+   ![img16](https://github.com/TransportDemand/CI5144/blob/main/Assets/Anaconda_16.png)
   
 8. **Install and launch JupyterLab**
 
-   ![img17](https://github.com/DCM-ML-course-TRAIL/DCM_ML_TRAIL_2024/blob/main/Assets/Anaconda_17.png)
+   ![img17](https://github.com/TransportDemand/CI5144/blob/main/Assets/Anaconda_17.png)
    
 9. **Import all packages**
 
-   ![img18](https://github.com/DCM-ML-course-TRAIL/DCM_ML_TRAIL_2024/blob/main/Assets/Anaconda_18.png)
+   ![img18](https://github.com/TransportDemand/CI5144/blob/main/Assets/Anaconda_18.png)
