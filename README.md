@@ -1,5 +1,9 @@
 # Demanda de Transporte
 
+Destacar que este material ha sido elaborado en conjunto con `Sander van Cranenburgh dentro del curso: Discrete Choice Analysis: micro-econometrics and machine learning approaches` (TU Delft, 2023)
+
+Su uso es exclusivo para el curso y sus estudiantes. No se permite compartir sin previa autorización.
+
 ## Instructions to set up your Python workspace
 
 ### a. Local environment (recommended)
